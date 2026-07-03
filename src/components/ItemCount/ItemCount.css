@@ -1,0 +1,47 @@
+.item-count {
+  margin-top: 20px;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.counter button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.counter button:hover {
+  background: #1d4ed8;
+}
+
+.counter span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 30px;
+  text-align: center;
+}
+
+.add-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #16a34a;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.add-button:hover {
+  background: #15803d;
+}

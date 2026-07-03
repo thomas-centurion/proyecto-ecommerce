@@ -1,0 +1,40 @@
+.item-detail {
+  padding: 40px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.item-detail img {
+  width: 400px;
+  border-radius: 12px;
+}
+
+.item-info h1 {
+  margin-bottom: 20px;
+}
+
+.item-price {
+  color: #2563eb;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.item-stock {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.go-cart-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.go-cart-btn:hover {
+  background: #1d4ed8;
+}

@@ -1,7 +1,13 @@
-.item-list-container {
-  padding: 40px;
-}
+.item-list-container { padding: 40px; }
 
-.item-list-title {
-  margin-bottom: 30px;
+.item-list-title { margin-bottom: 30px; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .item-list-container { padding: 30px 20px; }
+
+  .item-list-title {
+    text-align: center;
+    margin-bottom: 24px;
+  }
 }

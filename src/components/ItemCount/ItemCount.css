@@ -42,6 +42,12 @@
   transition: 0.2s;
 }
 
-.add-button:hover {
-  background: #15803d;
+.add-button:hover { background: #15803d; }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .counter { justify-content: center; }
+
+  .add-button { width: 100%; }
 }

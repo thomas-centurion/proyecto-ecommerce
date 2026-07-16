@@ -4,3 +4,12 @@
   justify-content: center;
   gap: 25px;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+}

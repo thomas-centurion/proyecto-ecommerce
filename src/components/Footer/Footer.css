@@ -6,6 +6,10 @@
   text-align: center;
 }
 
-.footer p {
-  margin: 5px 0;
+.footer p { margin: 5px 0; }
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  .footer { padding: 24px 20px; }
 }

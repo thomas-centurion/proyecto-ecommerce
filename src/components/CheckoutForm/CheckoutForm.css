@@ -32,9 +32,7 @@
 }
 
 .checkout-form button:hover,
-.back-home-btn:hover {
-  background: #1d4ed8;
-}
+.back-home-btn:hover { background: #1d4ed8; }
 
 .checkout-success {
   text-align: center;
@@ -45,4 +43,19 @@
   display: block;
   margin: 20px 0;
   font-size: 1.1rem;
+}
+/* Responsive */
+@media (max-width: 768px) {
+
+  .checkout-container { margin: 40px 20px; }
+
+  .checkout-form { gap: 12px; }
+
+  .checkout-form input,
+  .checkout-form button,
+  .back-home-btn {
+    width: 100%;
+  }
+
+  .checkout-success { margin: 50px 20px; }
 }
